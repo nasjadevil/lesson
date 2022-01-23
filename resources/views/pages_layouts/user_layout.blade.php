@@ -1,9 +1,8 @@
-@include('main_layout')
+@extends('main_layout')
 
-@section("header")
+@section('header')
 
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -30,7 +29,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link disabled">Disabled</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -40,7 +39,10 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
+@endsection
+
+@section("main")
+    asd
 @endsection
